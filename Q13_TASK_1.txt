@@ -1,0 +1,13 @@
+
+Step 1: Write necissary tests for the new features.
+  - One test to ensure adding with a negative number will throw an exception
+  - One test to ensure that numbers bigger than 1000 are ignored in the output
+Step 2: Start main coding loop
+  - Run tests
+  - if no failed tests, break to step 3, else finish step 2 and keep repeating it.
+  - For a failing test, add to the code in StringCalculator to attempt to make it pass
+Step 3: Refactor code
+  - reorganize to make things neater
+  - run tests along the way to make sure nothing breaks
+Step 4: Submit new design
+  - only do this when all tests pass and the code is well formatted and efficient
