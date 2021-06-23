@@ -11,7 +11,7 @@ public class StringCalculatorTest {
 	}
 	
 	@Test
-	void numberOverThousandIgnored() {
+	void numberOverThousandIgnored() throws Exception {
 		assertEquals(1, StringCalculator.add("1,1000"));
 	}
 }
